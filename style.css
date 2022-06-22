@@ -1,0 +1,59 @@
+body {
+	font-family: 'futura-md-bt-medium', sans-serif;
+	margin: 0;
+	background: #eee;
+	height: auto;
+}
+
+#BannerText h1 {
+	font-weight: 350px;
+	font-size: 2.5rem;
+	color: rgb(255, 255, 255);
+	text-transform: uppercase;
+	margin: 0;
+	display: flex;
+	flex: 0 1 40vw;
+	height: 20vh;
+	justify-content: center;
+	align-items: center;
+
+}
+
+#Banner {
+	background: rgb(2, 0, 36);
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 94, 57, 1) 0%, rgba(38, 152, 107, 1) 100%);
+}
+
+#image1 {
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+	margin-right: 4rem;
+	margin-left: 4rem;
+}
+
+#image2 {
+	margin-top: 2rem;
+	margin-bottom: 0;
+	margin-right: 4rem;
+	margin-left: 4rem;
+}
+
+#Text {
+	padding: 1.5rem;
+	text-align: center;
+}
+
+img {
+	display: block;
+	width: 100%;
+}
+
+main {
+	max-width: 900px;
+	margin: auto;
+	box-shadow: 30px 0px 40px rgba(0,0,0,0.2), -30px 0px 40px rgba(0,0,0,0.2);
+}
+
+#header {
+	padding: 1.5rem;
+}
